@@ -40,11 +40,11 @@ document.head.appendChild(style);
       // Create a chatbot header
       var header = document.createElement('div');
       header.style.backgroundColor = '#5d5d5d';
-      header.style.color = 'black';
+      header.style.color = 'white';
       header.style.padding = '20px';
       header.style.fontSize = '1.2em';
       header.style.fontWeight = 'bold';
-      header.textContent = 'Chatbot';
+      header.textContent = 'Assistant';
 
       // Create a chat container for messages
       var chatMessages = document.createElement('div');
