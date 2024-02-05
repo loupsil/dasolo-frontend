@@ -40,7 +40,7 @@ document.head.appendChild(style);
       // Create a chatbot header
       var header = document.createElement('div');
       header.style.backgroundColor = '#5d5d5d';
-      header.style.color = 'white';
+      header.style.color = 'black';
       header.style.padding = '20px';
       header.style.fontSize = '1.2em';
       header.style.fontWeight = 'bold';
