@@ -250,4 +250,22 @@ document.addEventListener('DOMContentLoaded', function () {
     helpButton.style.color = 'white';
     helpButton.style.border = 'none';
     helpButton.style.borderRadius = '50%';
-    helpButton.style.width = '
+    helpButton.style.width = '40px';
+    helpButton.style.height = '40px';
+    helpButton.style.display = 'flex';
+    helpButton.style.alignItems = 'center';
+    helpButton.style.justifyContent = 'center';
+    helpButton.style.padding = '0'; // Réinitialiser le padding
+    helpButton.style.margin = '0'; // Réinitialiser le margin
+    helpButton.style.fontSize = '25px'; // Ajuster selon la taille souhaitée
+    helpButton.style.fontFamily = 'Arial, sans-serif'; // Utiliser une police standard
+    helpButton.style.lineHeight = '1'; // Réduire la ligne height
+    helpButton.style.textAlign = 'center';
+    helpButton.style.cursor = 'pointer';
+    helpButton.style.boxShadow = '0 2px 4px rgba(0, 0, 0, 0.3)';
+
+    helpButton.addEventListener('click', toggleChatbot);
+    document.body.appendChild(helpButton);
+});
+
+
