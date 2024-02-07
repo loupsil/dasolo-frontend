@@ -1,4 +1,4 @@
-document.addEventListener('DOMContentLoaded', function () {
+edocument.addEventListener('DOMContentLoaded', function () {
     // Declare toggleChatbot function outside of loadChatbot
     var toggleChatbot;
     var isChatbotOpen = false; // Initialize the state variable
@@ -44,7 +44,7 @@ document.head.appendChild(style);
       header.style.padding = '20px';
       header.style.fontSize = '1.2em';
       header.style.fontWeight = 'bold';
-      header.textContent = 'Assistant';
+      header.textContent = 'Assistant Betree';
 
       // Create a chat container for messages
       var chatMessages = document.createElement('div');
