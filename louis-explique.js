@@ -1,3 +1,4 @@
+console.log('louis-explique.js is executing');
 document.addEventListener('DOMContentLoaded', function () {
     console.log('DOMContentLoaded event fired');
     // Declare toggleChatbot function outside of loadChatbot
