@@ -1,5 +1,15 @@
-console.log('louis-explique.js is executing');
-document.addEventListener('DOMContentLoaded', function () {
+if (document.readyState !== 'loading') {
+    console.log('document is already ready, just execute code here');
+    myInitCode();
+} else {
+    document.addEventListener('DOMContentLoaded', function () {
+        console.log('document was not ready, place code here');
+        myInitCode();
+    });
+}
+
+function myInitCode() {
+    console.log('louis-explique.js is executing');
     console.log('DOMContentLoaded event fired');
     // Declare toggleChatbot function outside of loadChatbot
     var toggleChatbot;
@@ -267,6 +277,4 @@ document.addEventListener('DOMContentLoaded', function () {
 
     helpButton.addEventListener('click', toggleChatbot);
     document.body.appendChild(helpButton);
-});
-
-
+}
