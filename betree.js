@@ -1,4 +1,4 @@
-edocument.addEventListener('DOMContentLoaded', function () {
+document.addEventListener('DOMContentLoaded', function () {
     // Declare toggleChatbot function outside of loadChatbot
     var toggleChatbot;
     var isChatbotOpen = false; // Initialize the state variable
