@@ -59,7 +59,7 @@ function myInitCode() {
 
         // Create a chat container for messages
         var chatMessages = document.createElement('div');
-        chatMessages.style.padding = '20px';
+        chatMessages.style.padding = '20px 20px 30px 20px'; // Top Right Bottom Left
         chatMessages.style.height = 'calc(100% - 120px)';
         chatMessages.style.overflowY = 'auto';
 
